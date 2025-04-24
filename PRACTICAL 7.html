@@ -1,0 +1,210 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Food Gallery</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom right, #f6d365, #fda085);
+    }
+
+    /* Black Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #000;
+      padding: 1rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 1.1rem;
+      transition: color 0.3s, transform 0.3s;
+    }
+
+    .navbar a:hover {
+      color: #ffa07a;
+      transform: scale(1.1);
+    }
+
+    .gallery-section {
+      padding: 2rem;
+      background-color: #fff8f0;
+      border-radius: 20px;
+      margin: 2rem;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .gallery-title {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #e94e77;
+      text-align: center;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Home section placeholder */
+    #home .welcome {
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2rem;
+      color: #e94e77;
+      font-weight: bold;
+      background-color: #fff8f0;
+      border-radius: 20px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body><nav class="navbar">
+    <a href="#home">Home</a>
+    <a href="#fruit">Fruit</a>
+    <a href="#fastfood">Fastfood</a>
+    <a href="#sweet-dessert">Sweet Dessert</a>
+    <a href="#drinks">Thali</a>
+    <a href="#salads">Salads</a>
+    
+    <a href="#salads">Sandwitches</a>
+    
+  </nav>
+
+  <section class="gallery-section" id="home">
+    <div class="welcome">Welcome to the Food Gallery 🍽️</div>
+  </section>
+  <section class="gallery-section" id="Fruit">
+    <div class="gallery-title">Fruit</div>
+    <div class="gallery">
+        <img src="C:\Users\Asus\Downloads/watermelon.jfif" width="400" height="350">
+<img src="C:\Users\Asus\Downloads/kiwi.jfif" width="400" height="350">
+<img src="C:\Users\Asus\Downloads/banana.jfif" width="300" height="350">
+<img src="C:\Users\Asus\Downloads/apple.jfif" width="400" height="350">
+<img src="C:\Users\Asus\Downloads/mango.jfif" width="400" height="350">
+<img src="C:\Users\Asus\Downloads/pineapple.jfif" width="400" height="350">
+<img src="C:\Users\Asus\Downloads/gava.jpg" width="400" height="350">
+<img src="C:\Users\Asus\Downloads/grapes.jpg" width="400" height="350">
+<img src="C:\Users\Asus\Downloads/orange.jpg" width="400" height="350">
+    </div>
+</section>
+
+<section class="gallery-section" id="Fatfood">
+    <div class="gallery-title">Fastfood</div>
+    <div class="gallery">
+        <img src="C:\Users\Asus\Downloads/pizza.jfif" width="400" height="350">
+<img src="C:\Users\Asus\Downloads/fries.jfif" width="400" height="350">
+<img src="C:\Users\Asus\Downloads/burger.jfif" width="400" height="350">
+<img src="C:\Users\Asus\Downloads/hotdog.jfif" width="400" height="350">
+<img src="C:\Users\Asus\Downloads/momos.jfif" width="400" height="350">
+<img src="C:\Users\Asus\Downloads/patties.jfif" width="400" height="350">
+    </div>
+</section>
+
+<section class="gallery-section" id="Sweet dessert">
+    <div class="gallery-title">Sweet dessert</div>
+    <div class="gallery">
+    
+        
+<img src="C:\Users\Asus\Downloads/cake.jfif" width="400" height="350">
+<img src="C:\Users\Asus\Downloads/mackrons.jfif" width="400" height="350">
+<img src="C:\Users\Asus\Downloads/marsh.jfif" width="400" height="350">
+<img src="C:\Users\Asus\Downloads/donot.jfif" width="400" height="350">
+<img src="C:\Users\Asus\Downloads/puffy.jfif" width="400" height="350">
+<img src="C:\Users\Asus\Downloads/chees cake.jfif" width="400" height="350">
+<img src="C:\Users\Asus\Downloads/cupcake.jfif" width="400" height="350">
+<img src="C:\Users\Asus\Downloads/chokolava.jfif" width="400" height="350">
+  
+<img src="C:\Users\Asus\Downloads/a.jpg" width="400" height="350">    
+    </div>
+</section>
+
+<section class="gallery-section" id="Drinks">
+    <div class="gallery-title">Drinks</div>
+    <div class="gallery">
+     
+<img src="C:\Users\Asus\Downloads/pink.jfif" width="400" height="350">
+<img src="C:\Users\Asus\Downloads/iced.jfif" width="400" height="350">
+<img src="C:\Users\Asus\Downloads/cocktail.jfif" width="400" height="350">
+<img src="C:\Users\Asus\Downloads/mojito.jpg" width="400" height="350">
+<img src="C:\Users\Asus\Downloads/sprite.jfif" width="400" height="350">
+<img src="C:\Users\Asus\Downloads/cola.jfif" width="400" height="350">
+<img src="C:\Users\Asus\Downloads/prime.jfif" width="400" height="350">
+<img src="C:\Users\Asus\Downloads/pepsi.jfif" width="400" height="350">
+<img src="C:\Users\Asus\Downloads/shake.jpg" width="400" height="350">
+    </div>
+</section>
+
+<section class="gallery-section" id="Thali">
+    <div class="gallery-title">Thali</div>
+    <div class="gallery">
+        <img src="C:\Users\Asus\Downloads/4.jpg" width="400" height="350">
+        <img src="C:\Users\Asus\Downloads/5.jpg" width="400" height="350">
+        <img src="C:\Users\Asus\Downloads/6.jpg" width="400" height="350">
+        <img src="C:\Users\Asus\Downloads/7.jpg" width="400" height="350">
+        <img src="C:\Users\Asus\Downloads/8.jpg" width="400" height="350">
+        <img src="C:\Users\Asus\Downloads/9.jpg" width="400" height="350">
+        <img src="C:\Users\Asus\Downloads/10.jpg" width="400" height="350">
+        <img src="C:\Users\Asus\Downloads/14.jpg" width="400" height="350">
+        <img src="C:\Users\Asus\Downloads/15.jpg" width="400" height="350">
+    </div>
+</section>
+
+<section class="gallery-section" id="salads">
+    <div class="gallery-title">Salads</div>
+    <div class="gallery">
+        <img src="C:\Users\Asus\Downloads/444.jpg" width="400" height="350">
+        <img src="C:\Users\Asus\Downloads/555.jpg" width="400" height="350">
+        <img src="C:\Users\Asus\Downloads/666.jpg" width="400" height="350">
+        <img src="C:\Users\Asus\Downloads/777.jpg" width="400" height="350">
+        <img src="C:\Users\Asus\Downloads/888.jpg" width="400" height="350">
+        <img src="C:\Users\Asus\Downloads/999.jpg" width="400" height="350">
+        <img src="C:\Users\Asus\Downloads/111.jpg" width="400" height="350">
+        <img src="C:\Users\Asus\Downloads/222.jpg" width="400" height="350">
+        <img src="C:\Users\Asus\Downloads/333.jpg" width="400" height="350">
+    </div>
+</section>
+<section class="gallery-section" id="Sandwiches">
+    <div class="gallery-title">Sandwitches</div>
+    <div class="gallery">
+        <img src="C:\Users\Asus\Downloads/44.jpg" width="400" height="350">
+        <img src="C:\Users\Asus\Downloads/55.jpg" width="400" height="350">
+        <img src="C:\Users\Asus\Downloads/66.jpg" width="400" height="350">
+        <img src="C:\Users\Asus\Downloads/77.jpg" width="400" height="350">
+        <img src="C:\Users\Asus\Downloads/88.jpg" width="400" height="350">
+        <img src="C:\Users\Asus\Downloads/99.jpg" width="400" height="350">
+        <img src="C:\Users\Asus\Downloads/100.jpg" width="400" height="350">
+        <img src="C:\Users\Asus\Downloads/103.jpg" width="400" height="350">
+        <img src="C:\Users\Asus\Downloads/102.jpg" width="400" height="350">
+    </div>
+</section>
+
+</body>
+</html>
